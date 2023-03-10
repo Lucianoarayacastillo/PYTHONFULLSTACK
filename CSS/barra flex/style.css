@@ -1,0 +1,94 @@
+
+ul, li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #999;
+}
+
+.nav
+{
+background-color:rgb(47, 49, 47);
+display: flex;
+ justify-content:space-between ;
+ margin-block-end: 10px;
+
+}
+
+
+
+
+.nav-title{
+    color:rgb(255, 255, 255) ;
+    margin: 1%;
+
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    font-family: 'Roboto', sans-serif;
+    gap: 30px;
+    margin: 1%;
+}
+
+.btn{
+    height: 30px;
+    box-shadow: 2px 2px black ;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(22, 146, 177);
+    color: rgb(255, 255, 255);
+    
+}
+
+*{
+    margin: 1px;
+    padding: 1px;
+    font-family: cursive;
+}
+main{
+    display: flex;
+}
+
+.section-1{
+    flex: 3;
+}
+
+.section-2{
+    flex: 2;
+}
+.container-user{
+    border: 1px solid rgb(165, 165, 165);
+}
+.azul{
+    background-color: aqua;
+    height: 70px;
+}
+.perfil{
+    border-radius: 65%;
+    width: 65px;
+    border: 1px solid rgb(110, 110, 110);
+    position: relative;
+    top: 35px ;
+    left: 15px;
+}
+.texto{
+    flex-direction: column ;
+    display: flex;
+    padding: 15px;
+    margin-top: 15px;
+}
+.icono{
+    width: 10px;
+}
+
+.edit_profile_icon{
+    list-style: url();
+    color: rgb(2, 119, 214);
+}
+
+.negro{
+    background-color: rgb(59, 57, 57);
+}
