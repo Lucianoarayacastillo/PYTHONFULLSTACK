@@ -7,6 +7,10 @@ a{
     color: #999;
 }
 
+p{
+    color: #d8cbcb;
+    text-align: center;
+}
 .nav
 {
 background-color:rgb(47, 49, 47);
@@ -91,4 +95,15 @@ main{
 
 .negro{
     background-color: rgb(59, 57, 57);
+}
+
+.btn-2{
+background-color: #d8cbcb;
+color: rgb(0, 0, 0);
+border-radius: 50%;
+padding-inline: 5px;
+}
+.conection{
+ display: flex;
+margin-right: 50%;
 }
