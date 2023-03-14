@@ -15,61 +15,68 @@ p{
 {
 background-color:rgb(47, 49, 47);
 display: flex;
- justify-content:space-between ;
- margin-block-end: 10px;
-
+justify-content:space-between ;
+margin-block-end: 10px;
 }
+
 
 
 
 
 .nav-title{
-    color:rgb(255, 255, 255) ;
-    margin: 1%;
-
+color:rgb(255, 255, 255) ;
+margin: 1%;
 }
 
 .nav-links{
-    display: flex;
-    align-items: center;
-    justify-content: right;
-    font-family: 'Roboto', sans-serif;
-    gap: 30px;
-    margin: 1%;
+display: flex;
+align-items: center;
+justify-content: right;
+font-family: 'Roboto', sans-serif;
+gap: 30px;
+margin: 1%;
 }
 
 .btn{
-    height: 30px;
-    box-shadow: 2px 2px black ;
-    font-family: 'Roboto', sans-serif;
-    background-color: rgb(22, 146, 177);
-    color: rgb(255, 255, 255);
-    
+height: 30px;
+box-shadow: 2px 2px black ;
+font-family: 'Roboto', sans-serif;
+background-color: rgb(22, 146, 177);
+color: rgb(255, 255, 255);
+
 }
 
 *{
-    margin: 1px;
-    padding: 1px;
-    font-family: cursive;
+margin: 1px;
+padding: 1px;
+font-family: cursive;
 }
+
 main{
     display: flex;
 }
 
 .section-1{
-    flex: 3;
+flex: 3;
 }
+
+
+
+
 
 .section-2{
     flex: 2;
 }
+
 .container-user{
     border: 1px solid rgb(165, 165, 165);
 }
+
 .azul{
     background-color: aqua;
     height: 70px;
 }
+
 .perfil{
     border-radius: 65%;
     width: 65px;
@@ -78,15 +85,19 @@ main{
     top: 35px ;
     left: 15px;
 }
+
 .texto{
     flex-direction: column ;
     display: flex;
     padding: 15px;
     margin-top: 15px;
+    justify-content: center;
 }
+
 .icono{
     width: 10px;
 }
+
 
 .edit_profile_icon{
     list-style: url();
@@ -95,15 +106,49 @@ main{
 
 .negro{
     background-color: rgb(59, 57, 57);
+    margin-right: 20%;
 }
 
 .btn-2{
 background-color: #d8cbcb;
 color: rgb(0, 0, 0);
 border-radius: 50%;
-padding-inline: 5px;
+border: 200px #999;
 }
+
 .conection{
- display: flex;
-margin-right: 50%;
+display: flex;
+border:  #999;
+justify-content:space-between ;
+
 }
+
+.texto-reques{
+    border: 1px solid rgb(165, 165, 165);
+    margin-right: 20%;
+}
+
+.container, .container-2{
+display: flex;
+justify-content:space-between ;
+align-items: center;
+
+}
+
+.todd-s{
+width: 20%;
+border-radius: 200%;
+}
+
+.accept-circle{
+    width: 10%;
+    border-radius: 200%;
+
+}
+
+.close-circle{
+    width: 10%;
+    border-radius: 200%;
+}
+
+/*este es un mensaje para verificar que se subio bien el trabajo :)*/
