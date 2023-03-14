@@ -110,10 +110,11 @@ flex: 3;
 }
 
 .btn-2{
-background-color: #d8cbcb;
-color: rgb(0, 0, 0);
+border: 2px solid rgb(0, 0, 0);
+background-color: rgb(202, 202, 202);
 border-radius: 50%;
-border: 200px #999;
+width: 30px;
+height: 30px;
 }
 
 .conection{
@@ -124,7 +125,7 @@ justify-content:space-between ;
 }
 
 .texto-reques{
-    border: 1px solid rgb(165, 165, 165);
+    border: 1px solid rgb(255, 255, 255);
     margin-right: 20%;
 }
 
