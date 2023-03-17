@@ -1,55 +1,58 @@
-
-ul, li{
-    list-style: none;
-}
 a{
-    text-decoration: none;
-    color: #999;
+color:rgb(18, 95, 240)
 }
 
 p{
-    color: #d8cbcb;
-    text-align: center;
+    color: #000000;
+
 }
 .nav
 {
-background-color:rgb(47, 49, 47);
+background-color:rgb(80, 82, 80);
 display: flex;
 justify-content:space-between ;
 margin-block-end: 10px;
 }
 
+.buscador{
+    display: flex;
+    align-items: center;
 
+}
 
+.btn-ninja{
+    height: 30px;
+    box-shadow: 2px 2px black ;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(209, 197, 33);
+    color: rgb(0, 0, 0);   
+}
 
+.container-education{
 
+    border: 1px solid rgb(0, 0, 0);
+    margin-top: 20px;
+}
 .nav-title{
 color:rgb(255, 255, 255) ;
 margin: 1%;
 }
 
-.nav-links{
-display: flex;
-align-items: center;
-justify-content: right;
-font-family: 'Roboto', sans-serif;
-gap: 30px;
-margin: 1%;
-}
+
 
 .btn{
-height: 30px;
-box-shadow: 2px 2px black ;
-font-family: 'Roboto', sans-serif;
-background-color: rgb(22, 146, 177);
-color: rgb(255, 255, 255);
-
+    height: 30px;
+    box-shadow: 2px 2px black ;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(22, 146, 177);
+    color: rgb(255, 255, 255);     
 }
 
 *{
 margin: 1px;
 padding: 1px;
 font-family: cursive;
+font-size: 30px;
 }
 
 main{
@@ -68,8 +71,12 @@ flex: 3;
     flex: 2;
 }
 
-.container-user{
-    border: 1px solid rgb(165, 165, 165);
+.container-texto{
+    border: 1px solid rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    padding: 0 0 30px 20px;
+    gap: 10px;
 }
 
 .azul{
@@ -98,16 +105,30 @@ flex: 3;
     width: 10px;
 }
 
-
-.edit_profile_icon{
-    list-style: url();
-    color: rgb(2, 119, 214);
+.btn-dojonari{
+    height: 30px;
+    box-shadow: 2px 2px black ;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(106, 207, 48);
+    color: rgb(0, 0, 0);  
+    display: flex;
+    align-items: center;
+    width: 60%;
+    text-align: center;  
+    justify-content: space-evenly;
+    margin-bottom: 10px;
 }
 
-.negro{
-    background-color: rgb(59, 57, 57);
-    margin-right: 20%;
+.container-dojonari{
+    border: 1px solid black;
+    margin-right: 10%;
+    text-align: center;
 }
+.container-btn{
+    display: flex;
+    justify-content: space-around;
+}
+
 
 .btn-2{
 border: 2px solid rgb(0, 0, 0);
@@ -117,12 +138,6 @@ width: 30px;
 height: 30px;
 }
 
-.conection{
-display: flex;
-border:  #999;
-justify-content:space-between ;
-
-}
 
 .texto-reques{
     border: 1px solid rgb(255, 255, 255);
@@ -135,21 +150,3 @@ justify-content:space-between ;
 align-items: center;
 
 }
-
-.todd-s{
-width: 20%;
-border-radius: 200%;
-}
-
-.accept-circle{
-    width: 10%;
-    border-radius: 200%;
-
-}
-
-.close-circle{
-    width: 10%;
-    border-radius: 200%;
-}
-
-/*este es un mensaje para verificar que se subio bien el trabajo :)*/
