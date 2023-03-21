@@ -1,93 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
+  <body>
     <div class="nav">
-        <h1 class="nav-title">dojonari</h1>
-        <div class="buscador">
-            <label for="#"></label>
-            <input type="search" placeholder="search">
-        </div>
-        <button  onclick="turnlogout(this)" class="btn">login</button>
-
+      <h1 class="nav-title">dojonari</h1>
+      <div class="buscador">
+        <label for="#"></label>
+        <input type="search" placeholder="search" />
+      </div>
+      <button onclick="turnlogout(this)" class="btn">login</button>
     </div>
     <main>
+      <section class="section-1">
+        <div class="container-texto">
+          <div>
+            <button aria-current="count1" class="btn-ninja">likes</button>
+          </div>
+          <div>
+            <h1 id="count1">9</h1>
+            like(s)
+          </div>
 
+          <div class="texto1">
+            <h3>Neil M</h3>
+            <br />
+            <h3>
+              I just set up this new discord bot, let me know what you all think
+              <a href="#">link</a>
+            </h3>
+          </div>
+        </div>
 
+        <div class="container-texto">
+          <div>
+            <button aria-current="count2" class="btn-ninja">likes</button>
+          </div>
+          <div>
+            <h1 id="count2">12</h1>
+            like(s)
+          </div>
+          <div class="texto1">
+            <h3>Neil M</h3>
+            <br />
+            <h3>
+              I just set up this new discord bot, let me know what you all think
+              <a href="#">link</a>
+            </h3>
+          </div>
+        </div>
 
-            <section class="section-1">
-                <div class="container-texto">
-
-                    <div>
-                        <h1>ninja</h1>
-                        <h3>noun</h3>
-                        <p>plural ninja </p>
-                        <button onclick="showAlert('ninja was liked')" class="btn-ninja">13 likes</button>
-                    </div>
-                    <div class="texto1">
-                        <h3>a practitioner skilled <br><a href="#">japanese</a>
-                            art of <a href="#">ninjutsu</a>
-                        </h3>
-                    </div>
-
-                </div>
-
-
-
-                <div class="container-texto">
-                    <div>
-                        <h1>ninja</h1>
-                        <h3>noun</h3>
-                        <p>plural ninja </p>
-                        <button class="btn-ninja">37 likes</button>
-                    </div>
-
-                    <div class="texto2">
-                        <h3>A <a href="#">programer</a> who breaks <br>
-                            down problem whit <a href="#">zen</a>-like focus
-                    </div>
-                    </h3>
-
-                </div>
-            </section>
- 
-
-
-
-
-
-
-        <section class="section-2">
-            <div class="container-dojonari">
-                <h1>Dojonari is <br>
-                    defined by YOU
-                </h1>
-                <div class="container-btn">
-                    <button onclick="hide(this)" class="btn-dojonari">add definition</button>
-                </div>
-            </div>
-
-
-
-
-
-
-
-            </div>
-
-        </section>
-
+        <div class="container-texto">
+          <div>
+            <button aria-current="count3" class="btn-ninja">likes</button>
+          </div>
+          <div>
+            <h1 id="count3">3</h1>
+            like(s)
+          </div>
+          <div class="texto1">
+            <h3>Neil M</h3>
+            <br />
+            <h3>
+              I just set up this new discord bot, let me know what you all think
+              <a href="#">link</a>
+            </h3>
+          </div>
+        </div>
+      </section>
+      <section class="section-2">
+        <div class="container-dojonari">
+          <img
+            class="img-julio"
+            src="./img/Captura de pantalla 2023-03-21 090251.png"
+            alt=""
+          />
+          <h1><a href="#">add an avatar</a>james doe</h1>
+        </div>
+      </section>
     </main>
-
-
-<script src="scrip.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>

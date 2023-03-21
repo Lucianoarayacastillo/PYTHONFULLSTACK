@@ -59,6 +59,7 @@ font-size: 30px;
 
 main{
     display: flex;
+    flex-direction: row-reverse;
 }
 
 .section-1{
@@ -79,6 +80,10 @@ flex: 3;
     align-items: center;
     padding: 0 0 30px 20px;
     gap: 10px;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    margin-right: 90px;
 }
 
 .azul{
@@ -126,11 +131,21 @@ flex: 3;
     margin-right: 10%;
     text-align: center;
 }
+
+.img-julio{
+border-radius: 300px;
+padding: 10px 20px;
+width: 300px;
+height: 300px;
+}
+
 .container-btn{
     display: flex;
     justify-content: space-around;
 }
-
+ .img-julio{
+    padding: 10px 20px;
+ }
 
 .btn-2{
 border: 2px solid rgb(0, 0, 0);
